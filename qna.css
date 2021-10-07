@@ -1,0 +1,52 @@
+#qna {
+    display: none;
+}
+
+.answerBox {
+    width: 80%;
+}
+
+.qBox{
+    background-color: whitesmoke;
+    text-align: center;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 80%;
+    font-weight: bold;
+}
+
+.answerList {
+    background-color: whitesmoke;
+    border-radius: 20px;
+    display: block; /*한줄에 다 보이니 한줄에 하나씩 버튼이 보이게 */
+    width: 80%;
+    border: 0px; /*버튼에 아무런 테두리가 안보이게 */
+    font-size: 20px;
+}
+
+.answerList:hover, .answerList:focus{
+    background-color: rgb(212, 137, 150);
+    color: whitesmoke;
+}
+
+.status{
+    height: 20px;
+    width: 80%;
+    background-color: white;
+    border-radius: 20px;
+}
+
+.statusBar {
+    height: 100%; /*감싸줘있으니 */
+    border-radius: 20px;
+    background-color: rgb(255, 230, 0);
+}
+
+.footer-amessage {
+    font-weight: bold;
+    font-size: 1rem;
+    color:whitesmoke;
+    text-align: center;
+    padding-top: 3rem;
+}
+

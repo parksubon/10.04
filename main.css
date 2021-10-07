@@ -1,0 +1,18 @@
+.inner {
+    height: 700px; /*메인 사진 높이 */
+    background-image:url(image/img/main.jpeg);
+    background-size: cover; /* 어떤 너비든 어느정도 화면에 맞게 적정히 조정해줌 */
+    background-position: center 60%; /*가운데로 두고 10%정도 위로 올라감 */
+    
+
+}
+
+.title {
+    padding-top: 8rem;
+    font-size: 26px;
+    text-align: center;
+    color:gray(10, 43, 189);
+    font-weight: bold;
+    color: rgb(255, 238, 238);
+}
+
